@@ -1,0 +1,67 @@
+/*conf globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", sans-serif;
+    box-sizing: unset;
+}
+
+
+
+body {
+    background-image: url(/img//download.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#container{
+    background-color: rgba(255, 255, 255, 0.747); /* Cor branca com 50% de transparência */
+    border-color: blue;
+    border-radius: 50px;
+    width: 95%;
+    padding: 20px;
+    max-width: 300px;
+
+}
+
+input{
+    padding: 3px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.titulo{
+    margin-top: 15px;
+}
+
+.temperatura{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+button {
+    padding: 0px, 5px;
+    font-size: 18px;
+    cursor: point ;
+
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+}
+
+.vento{
+    margin-top: 15px;
+}
+
+.umidade{
+    margin-top: 15px;
+    
+}
